@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caulculadora</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>  
+
+        <div class="contenedor">
+            <h3> Calculadora</h3>
+            <div id="numero1" class="pantalla2"> 
+            </div>
+            <div class="pantalla" id="pantalla" name="pantalla">
+            </div>
+            <div class="numeros" id="numeros">
+                <input type="button" name="uno" id="uno" value="1" onclick="numero(value)">
+                
+                <input type="button" name="dos" id="dos" value="2" onclick="numero(value)">
+                
+                <input type="button" name="tres" id="tres" value="3" onclick="numero(value)">
+                <input type="button" name="mas" id="mas" value="+" onclick="operacion(value)">
+                
+                <input type="button" name="cuatro" id="cuatro" value="4" onclick="numero(value)">
+                <input type="button" name="cinco" id="cinco" value="5" onclick="numero(value)">
+                <input type="button" name="seis" id="seis" value="6" onclick="numero(value)">
+
+                <input type="button" name="menos" id="menos" value="-" onclick="operacion(value)">
+
+               <input type="button" name="siete" id="siete" value="7" onclick="numero(value)">
+                <input type="button" name="ocho" id="ocho" value="8" onclick="numero(value)">
+                <input type="button" name="nueve" id="nueve" value="9" onclick="numero(value)">
+                <input type="button" name="por" id="por" value="*" onclick="operacion(value)">
+                <input type="button" name="cero" id="cero" value="0" onclick="numero(value)">
+              
+               
+              
+               
+                <input type="button" name="limpiar" id="limpiar" value="C" onclick="limpiar()"> 
+              
+                <input type="button" name="igual" id="igual" value="=" onclick="resultado()">
+                
+                <input type="button" name="entre" id="entre" value="/" onclick="operacion(value)">
+                
+            </div>
+            
+          
+
+
+
+        </div>
+        
+
+        <script src="javascript/funciones.js"></script>
+</body>
+</html>l

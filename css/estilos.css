@@ -22,10 +22,7 @@ h3{
     text-align: right;
   
 }
-
 .pantalla2{
-    
-    
     width: 370px;
     padding:auto     ;
     margin: auto;
@@ -46,8 +43,6 @@ h3{
     padding: auto;
     border-radius: 15px;
 }
-
-
   input[type=button], input[type=submit], input[type=reset] {
       background-color: #fca311;
       border: none;
@@ -59,7 +54,6 @@ h3{
       text-decoration: none;
       margin: 6px 4px;
       cursor: pointer;
-      
   }
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
     background-color: #333;

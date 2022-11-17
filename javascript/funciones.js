@@ -5,8 +5,6 @@ function numero(valor) {
   document.getElementById("pantalla").innerHTML += valor;
 }
 
-
-
 function limpiar() {
   document.getElementById("pantalla").innerHTML = "";
   document.getElementById("numero1").innerHTML = "";
@@ -27,27 +25,27 @@ document.addEventListener(
 
 function resultado() {
   numero2 = document.getElementById("pantalla").textContent;
-  let suma = 0;
+  let resultado = 0;
 if(numero1 !=0){
     switch (operador1) {
         case "+":
-          suma = parseFloat(numero1) + parseFloat(numero2);
-          document.getElementById("pantalla").innerHTML = suma;
+          resultado = parseFloat(numero1) + parseFloat(numero2);
+          document.getElementById("pantalla").innerHTML = resultado;
           document.getElementById("numero1").innerHTML = "";
           break;
         case "-":
-          suma = parseFloat(numero1) - parseFloat(numero2);
-          document.getElementById("pantalla").innerHTML = suma;
+          resultado = parseFloat(numero1) - parseFloat(numero2);
+          document.getElementById("pantalla").innerHTML = resultado;
           document.getElementById("numero1").innerHTML = "";
           break;
         case "*":
-          suma = parseFloat(numero1) * parseFloat(numero2);
-          document.getElementById("pantalla").innerHTML = suma;
+          resultado = parseFloat(numero1) * parseFloat(numero2);
+          document.getElementById("pantalla").innerHTML = resultado;
           document.getElementById("numero1").innerHTML = "";
           break;
         case "/":
-          suma = parseFloat(numero1) / parseFloat(numero2);
-          document.getElementById("pantalla").innerHTML = suma;
+          resultado = parseFloat(numero1) / parseFloat(numero2);
+          document.getElementById("pantalla").innerHTML = resultado;
           document.getElementById("numero1").innerHTML = "";
           break;
     
